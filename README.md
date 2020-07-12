@@ -14,7 +14,7 @@ Each contains a skeleton repository for their respective language. In order to s
 
 The README files contain a brief guide on how to fill in your solutions for the Challenge, before you submit to our central servers through a simple <code>git push</code>.
 
-If there are any questions, you can get in touch with us using the help page at www.codingchallenge.herokuapp.com. 
+If there are any questions, you can get in touch with us using the help page at https://codingchallenge.herokuapp.com. 
 
 In the meantime, we wish you all the best of luck as you attempt to be crowned the Global TA Coding Champion!
 
