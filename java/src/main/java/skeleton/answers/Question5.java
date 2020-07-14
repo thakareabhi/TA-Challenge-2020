@@ -2,22 +2,22 @@ package skeleton.answers;
 
 public class Question5 {
 
-    public static int shareExchange(int[] arr, int N) {
+    public static int shareExchange(int[] numbers, int sum) {
      
-        int count[] = new int[N + 1]; 
+                ArrayList minSet = new ArrayList();
+                 int flag=0;
+                for(int i=numbers.length-1; i&gt;=0; i--) 
+                {
+                           sum = sum - numbers[i];
+                           minSet.add( new Integer(numbers[i]) );
+                                  if(sum &lt;=0) 
+                                  {
+                                     return minSet.size();
+                                  }
+                }
           
+                    
+           return 0;
         
-        count[0] = 1; 
-          
-        
-        for (int i = 1; i <= N; i++) 
-            for (int j = 0; j < arr.length; j++) 
-      
-                 
-                if (i >= arr[j]) 
-                    count[i] += count[i - arr[j]]; 
-          
-        
-        return count[N];  
     }
 }
