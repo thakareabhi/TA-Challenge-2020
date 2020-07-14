@@ -26,5 +26,5 @@ def question05(num_list, value):
                       value_table[i] = tmp + 1
 
      
-    answer = value_table[value]
-    return answer
+    return value_table[value]
+    
