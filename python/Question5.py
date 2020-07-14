@@ -1,3 +1,4 @@
+import sys
 # modify this function, and create other functions below as you wish
 def question05(num_list, value):
     ist_len = len(num_list)
